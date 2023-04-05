@@ -27,5 +27,5 @@ export const getById = async (id: number, callback: Function) => {
 
 export const deleteById = async (id: number, callback: Function) => {
   const sql_query = `DELETE FROM plants WHERE id = ?`
-  db.get(sql_query, [id], callback)
+  db.run(sql_query, [id], callback)
 }
