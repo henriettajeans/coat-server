@@ -1,0 +1,10 @@
+POST  http://localhost:4500/plants/
+Content-Type:  application/json
+{
+  "name": "Palettblad",
+  "description": "Palettblad är en populär inomhusväxt som kan ha många olika färger och mönster på sina blad. Bladen kan vara gröna, röda, rosa, lila, gula eller en kombination av flera färger. Bladens mönster kan variera från enfärgade till fläckiga eller randiga. Palettblad trivs bäst på en ljus plats, men inte i direkt sol. De behöver också en fuktig miljö och regelbunden bevattning. Palettblad kan vara en utmärkt tillskott till ditt hem eller ditt kontor, och det är enkel att ta hand om om du tar hänsyn till dess krav.",
+
+  "imgurl": "https://images.unsplash.com/photo-1587566349271-d860bed86f8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y29sZXVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+}
+
+

@@ -22,6 +22,7 @@ class PlantController {
             message: 'Oops gick inte att hämta data om växterna',
             status: 404,
           })
+
         return res.send(plants)
       })
     } catch (e) {
